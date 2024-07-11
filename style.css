@@ -16,7 +16,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.5); /* Change the opacity to adjust darkness */
+        background: rgba(0, 0, 0, 0.5); 
         z-index: 1;
     }
 
@@ -42,7 +42,7 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(0, 0, 0, 0.5); /* Change the opacity to adjust darkness */
+        background: rgba(0, 0, 0, 0.5); 
         z-index: 1;
     }
 
@@ -103,8 +103,8 @@
       border: 1px solid #7fbefe;
     }
     .custom-toggler {
-    background-color: black; /* Change this to your desired color */
-    border-color: black;     /* Change this to match your background color */
+    background-color: #020e28; 
+    border-color: #020e28;    
     }
   
     .custom-toggler .navbar-toggler-icon {
