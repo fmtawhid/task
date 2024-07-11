@@ -1,0 +1,114 @@
+
+
+    .hero {
+    position: relative;
+    background: url('./img/banner.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+    overflow: hidden;
+    }
+
+    .hero::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Change the opacity to adjust darkness */
+        z-index: 1;
+    }
+
+    .hero > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    
+    .parts {
+    position: relative;
+    background: url('./img/banner.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 60px 0;
+    overflow: hidden;
+    }
+
+    .parts::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5); /* Change the opacity to adjust darkness */
+        z-index: 1;
+    }
+
+    .parts > * {
+        position: relative;
+        z-index: 2;
+    }
+
+    .estimate-btn{
+      background: linear-gradient(to right, #ecb910, #0c80f1);
+      padding: 10px 30px 10px 30px;
+      border: 2px;
+      border-radius: 25px;
+
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .features i {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .brands img {
+        max-width: 100%;
+        height: auto;
+    } 
+    .brands {
+      background-color: #ffffff;
+      
+      
+    }
+    .footer {
+      
+      padding: 20px;
+    }
+    .sameColor{
+      background-color: #020e28;
+      color: white;
+    }
+    .nav-custom{
+      color: #212b41;
+      }
+    .title-custom{
+      color: #fcbd00;    
+    }
+    .title-custom1{
+      color: #004376  
+    }
+
+    .title-custom2{
+      color: #131c32;    
+    }
+    .custom-hr {
+      float: left;
+      border: 1px solid #7fbefe;
+    }
+    .custom-toggler {
+    background-color: black; /* Change this to your desired color */
+    border-color: black;     /* Change this to match your background color */
+    }
+  
+    .custom-toggler .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+  
